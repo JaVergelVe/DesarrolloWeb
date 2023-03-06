@@ -4,30 +4,28 @@
     margin: 0 auto;
     text-align: center;
     color: white;
+    grid-template-areas:    
+        'header header header'
+        'menu content content'
+        'footer footer footer';
 }
 
 .header{
     background-color: darkcyan;
-    height: 60px;
-}
-
-.wrapper {
-    background-color: aquamarine;
-    /*flex-direction: row-reverse;*/
-    display: flex;
+    grid-area: header;
 }
 
 .menu {
     background-color: blueviolet;
-    width: 30%;
+    grid-area: menu;
 }
 
 .content {
     background-color: yellowgreen;
-    width: 70%;
+    grid-area: content;
 }
 
 .footer {
     background-color: black;
-    
+    grid-area: footer;
 }
