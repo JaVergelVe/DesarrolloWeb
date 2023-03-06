@@ -1,0 +1,33 @@
+.container{
+    background-color: navy;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.header{
+    background-color: darkcyan;
+    height: 60px;
+}
+
+.wrapper {
+    background-color: aquamarine;
+}
+
+.menu {
+    background-color: blueviolet;
+    width: 30%;
+    float: left;
+}
+
+.content {
+    background-color: yellowgreen;
+    width: 50%;
+    float: left;
+}
+
+.footer {
+    background-color: black;
+    clear: both;
+}
