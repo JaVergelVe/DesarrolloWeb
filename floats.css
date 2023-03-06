@@ -13,21 +13,21 @@
 
 .wrapper {
     background-color: aquamarine;
+    /*flex-direction: row-reverse;*/
+    display: flex;
 }
 
 .menu {
     background-color: blueviolet;
     width: 30%;
-    float: left;
 }
 
 .content {
     background-color: yellowgreen;
-    width: 50%;
-    float: left;
+    width: 70%;
 }
 
 .footer {
     background-color: black;
-    clear: both;
+    
 }
