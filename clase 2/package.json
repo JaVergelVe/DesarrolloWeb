@@ -1,0 +1,19 @@
+{
+  "name": "clase-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "Yo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaVergelVe/DesarrolloWeb.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
