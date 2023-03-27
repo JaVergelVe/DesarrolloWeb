@@ -5,9 +5,9 @@
     text-align: center;
     color: white;
     grid-template-areas:    
-        'header header header'
-        'menu content content'
-        'footer footer footer';
+        'header header  header'
+        'menu   content content'
+        'footer footer  footer';
 }
 
 .header{
