@@ -4,10 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/775f57268e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../dist/output.css">
     <title>Youtube</title>
 </head>
-<body class="bg-black">
+<body class="font-sans">
+    <div class="flex-col">
+        <header class="flex items-center justify-between h-14">
+            <div class="text-2xl">
+                <button class="p-2 mx-3 rounded-full hover:bg-slate-400"><i class="fa-solid fa-bars"></i></button>
+                <a href="#" class="font-mono font-semibold "><i class="mr-1 fa-brands fa-youtube" style="color: #ff0000;"></i><span>Youtube</span></a>
+            </div>
+            <div class="text-lg">
+                <input type="text" placeholder="Buscar" class="p-2 rounded-l-full bg-slate-200">
+                <button type="submit" class="p-2 rounded-r-full bg-slate-400"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button type="submit" class="p-2 ml-1 rounded-full bg-slate-400"><i class="fa-solid fa-microphone"></i></button>
+            </div>
+            <div class="flex text-2xl">
+                <button class="mr-4"><i class="fa-solid fa-upload"></i></button>
+                <button class="mr-4"><i class="fa-solid fa-bell"></i></button>
+                <img src="/Youtube/src/img/d3cc8c5e74d9ebf68eac8acc4654f4ac.jpg" alt="avatar" class="w-8 h-8 mr-3 rounded-full">
+            </div>
+        </header>
+        <div class="flex h-screen">
+            <nav class="w-1/5 active:w-16 bg-slate-500">
+                menu
+            </nav>
     
+            <main class="w-screen bg-slate-600">
+                Contenido
+            </main>
+        </div>
+    </div>
 </body>
 </html>
