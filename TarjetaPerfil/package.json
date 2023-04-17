@@ -1,0 +1,17 @@
+{
+  "name": "tarjetaperfil",
+  "version": "1.0.0",
+  "description": "Tarjeta de perfil",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JaVergelVe/DesarrolloWeb.git"
+  },
+  "author": "JaVergelVe",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
